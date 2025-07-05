@@ -1,0 +1,51 @@
+{
+  "name": "Walls of Brazil - WOB",
+  "short_name": "WOB",
+  "description": "Hardcore Punk from Brazil. Todos os nossos links em um só lugar.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#6366f1",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "pt-BR",
+  "categories": ["music", "entertainment"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/avatar.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Instagram",
+      "short_name": "Instagram",
+      "description": "Acompanhe no Instagram",
+      "url": "https://instagram.com/wallsofbrazil",
+      "icons": [{ "src": "/favicon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "YouTube",
+      "short_name": "YouTube",
+      "description": "Assista nossos vídeos",
+      "url": "https://youtube.com/@wallsofbrazil",
+      "icons": [{ "src": "/favicon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Spotify",
+      "short_name": "Spotify",
+      "description": "Ouça nossas músicas",
+      "url": "https://open.spotify.com/artist/wallsofbrazil",
+      "icons": [{ "src": "/favicon.png", "sizes": "96x96" }]
+    }
+  ]
+}
+
