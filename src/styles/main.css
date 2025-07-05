@@ -101,10 +101,8 @@ body.dark-theme .container {
 }
 
 .link-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
+  display: block;
+  width: 100%;
   padding: 16px 24px;
   background: rgba(245, 245, 245, 0.1);
   border: 2px solid rgba(255, 255, 255, 0.1);
@@ -123,9 +121,9 @@ body.dark-theme .container {
   text-align: center;
 }
 
-body.dark-theme .link-button {
-  background: rgba(45, 45, 45, 0.9);
-  border-color: rgba(255, 255, 255, 0.1);
+body.dark-theme .link-button:hover {
+  background: linear-gradient(135deg, #ac0505, #921313);
+  border-color: #ac0505;
   color: #fafafa;
 }
 
