@@ -101,9 +101,12 @@ body.dark-theme .container {
 }
 
 .link-button {
-  display: block;
-  width: 100%;
+  display: flex;
+  align-items: center; /* verticalmente centralizado */
+  justify-content: center; /* horizontalmente centralizado */
   padding: 16px 24px;
+  text-align: center;
+  width: 100%;
   background: rgba(245, 245, 245, 0.1);
   border: 2px solid rgba(255, 255, 255, 0.1);
   border-radius: 16px;
@@ -113,7 +116,6 @@ body.dark-theme .container {
   font-size: 16px;
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
-  text-align: center;
 }
 
 .link-button span {
@@ -131,6 +133,11 @@ body.dark-theme .link-button:hover {
   background: linear-gradient(135deg, #ac0505, #921313);
   border-color: #ac0505;
   color: #fafafa;
+}
+
+.link-text {
+  display: block;
+  width: 100%;
 }
 
 body.dark-theme .link-button:hover {
