@@ -3,7 +3,7 @@ import { ProfileData } from '../types';
 export const profileData: ProfileData = {
   name: "WALLSOFBRAZIL",
   description: "Hardcore Punk from Brazil.",
-  avatar: "/public/avatar.jpg",
+  avatar: "/avatar.jpg",
   links: [
     {
       id: "1",
